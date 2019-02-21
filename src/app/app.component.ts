@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { AuthService } from './auth.service';
+import { AuthService } from 'shared/services/auth.service';
 import { Router } from '@angular/router';
 import { load } from '@angular/core/src/render3';
-import { UserService } from './user.service';
+import { UserService } from 'shared/services/user.service';
 import * as firebase from 'firebase';
 import { AngularFireAuth } from 'angularfire2/auth';
 
