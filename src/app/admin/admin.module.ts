@@ -22,16 +22,16 @@ import { SharedModule } from 'shared/shared.module';
   ],
   imports: [
     SharedModule,
-    CommonModule,
-    FormsModule,
-    CustomFormsModule,
-    DataTableModule,
-    AdminRoutingModule,
-    BrowserAnimationsModule,
-    ToastrModule.forRoot({
-      timeOut: 2000,
-      preventDuplicates: false
-    })
+    AdminRoutingModule
+    // CommonModule,
+    // FormsModule,
+    // CustomFormsModule,
+    // DataTableModule,
+    // BrowserAnimationsModule,
+    // ToastrModule.forRoot({
+    //   timeOut: 2000,
+    //   preventDuplicates: false
+    // })
   ],
   providers: [
     AdminAuthGuardService

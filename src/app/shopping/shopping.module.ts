@@ -27,12 +27,12 @@ import { SharedModule } from 'shared/shared.module';
     ProductFilterComponent
   ],
   imports: [
-    SharedModule,
-    CommonModule,
-    FormsModule,
-    CustomFormsModule,
-    DataTableModule,
-    ShoppingRoutingModule
+    ShoppingRoutingModule,
+    SharedModule
+    // CommonModule,
+    // FormsModule,
+    // CustomFormsModule,
+    // DataTableModule
   ]
 })
 export class ShoppingModule { }
